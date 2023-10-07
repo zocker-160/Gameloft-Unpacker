@@ -149,6 +149,8 @@ func main() {
 			ext = "midi"
 		} else if formatMagic == [4]byte{'O', 'g', 'g', 'S'} {
 			ext = "ogg"
+		} else if formatMagic == [4]byte{'R', 'I', 'F', 'F'} {
+			ext = "wav"
 		} else {
 			ext = "unkn"
 		}
