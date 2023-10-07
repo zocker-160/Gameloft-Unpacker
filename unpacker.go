@@ -22,7 +22,7 @@ type FileContainer struct {
 
 type Header struct {
 	Unk1 uint16
-	Unk2 uint16
+	Unk2 uint16 // could also be uint32 who the fuck knows
 	Unk3 uint16
 	NumEntries uint16
 }
